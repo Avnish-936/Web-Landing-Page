@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Avnish Mishra Tourism</title>
+<link href="https://fonts.googleapis.com/css2?family=Laila&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+<style>
+
+body{
+margin: 0px; 
+padding: 0px; 
+background-image: url("C:/Users/Appgrids/OneDrive/Desktop/Project - First Website/images/bg.jpg"); 
+background-size: 1025px;
+font-family: 'Laila', serif;
+}
+
+.left{
+display: inline-block; 
+position: absolute;
+left: 20px;
+top: 15px;
+height: 60px; 
+width: 60px;
+}
+.logo{
+width: 60px;
+}
+.mid{
+display: block;
+width: 40%;
+margin: 15px auto;
+}
+.right{
+display: inline-block;  
+position: absolute;
+right: 20px;
+top: 15px;
+}
+
+.navbar{
+display: inline-block;
+margin: 5px;
+padding-left: 0px; 
+width: 110%;
+}
+.navbar li{
+font-size: 18px;
+display: inline-block;
+}
+.navbar li a{
+color: white;
+display: inline-block;
+text-decoration: none;
+padding: 0px 11px;
+}
+.navbar li a:hover, .navbar li a.active{
+text-decoration: underline;
+color: chocolate;
+}
+
+.btn{
+font-family: 'Laila', serif;
+padding: 5px 10px;
+margin: 2px 3px;
+background-color: #eddbda; 
+border: 2px solid black; 
+border-radius: 15px;
+}
+.btn:hover{
+background-color: #ef9a9a;
+}
+
+.container{
+border: 2px solid white;
+color: white;
+text-align: center;
+display: inline-block;
+width: 50%; 
+margin: 110px 30px; 
+padding: 3px 10px;
+border-radius: 10px; 
+} 
+
+.form-group input{
+font-family: 'Laila', serif;
+text-align: center; 
+border: 2px solid black;
+width: 350px;
+border-radius: 10px; 
+}
+
+.container button{
+display: block;
+width: 360px; 
+margin: 15px auto; 
+background-color: #ffa726;
+}
+
+.container button:hover{
+background-color: #b36e0a; 
+}
+</style>
+</head>
+
+<body>
+
+<header class="header">
+	<!-- Left box for logo -->
+	<div class="left">
+		<img src="C:/Users/Appgrids/OneDrive/Desktop/Project - First Website/images/logo.jpg" alt="Logo Name" class="logo"> 
+	</div>
+	<!-- Mid box for Navigation bar -->
+	<div class="mid">
+		<ul class="navbar">
+			<li><a href="#" class="active">Home</a></li>
+			<li><a href="#">Places</a></li> 
+			<li><a href="#">Program</a></li>
+			<li><a href="#">About</a></li>
+			<li><a href="#">Contact</a></li>
+		</ul>
+	</div>
+	<!-- Right box for action button -->
+	<div class="right">
+		<button class="btn">SIGN UP</button>
+		<button class="btn">LOG IN</button>
+	</div>
+</header>
+
+<div class="container">
+	<h2>Enjoy Best Travel & Tourism Experience<h2>
+	<form action="noaction.php">
+		<div class="form-group">
+			<input type="text" name="" placeholder="Enter Your Name">
+		</div>
+		<div class="form-group">
+			<input type="text" name="" placeholder="Enter Your Age">
+		</div>
+		<div class="form-group">
+			<input type="text" name="" placeholder="Enter Your Gender">
+		</div>
+		<div class="form-group">
+			<input type="text" name="" placeholder="Enter Your E-mail Address">
+		</div>
+		<div class="form-group">
+			<input type="text" name="" placeholder="Enter Your Mobile Number">
+		</div>
+		<div class="form-group">
+			<input type="text" name="" placeholder="Enter Your Locality">
+		</div>
+		<button class="btn">SUBMIT</button>
+	</form>
+</div>
+
+</body>
+</html> 
